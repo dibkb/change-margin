@@ -1,0 +1,46 @@
+.container {
+  /* margin: 2rem; */
+  /* position: relative; */
+  filter: drop-shadow(0px 38px 43px rgba(0, 0, 0, 0.21));
+}
+canvas {
+  background-color: #fff;
+  position: absolute;
+  z-index: -1;
+}
+.content {
+  position: absolute;
+  z-index: 1;
+  left: 100px;
+  height: 400px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  border: 1px dashed #1087e8;
+  /* background-color: #470000; */
+  background-image: url("https://w0.peakpx.com/wallpaper/160/858/HD-wallpaper-kratos-in-god-of-war-ragnarok.jpg");
+  background-repeat: no-repeat, repeat;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* opacity: 0.2; */
+}
+.input {
+  position: absolute;
+  right: 300px;
+  top: 100px;
+}
+.chip {
+  font-size: 12px;
+  position: absolute;
+  top: -1.5rem;
+  padding: 0.3rem 0.9rem;
+  background-color: #1087e8;
+  border-radius: 12px;
+}
+input {
+  background-color: transparent;
+  color: #fff;
+  padding: 1rem;
+}
